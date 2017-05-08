@@ -4,12 +4,6 @@ title: Sobre
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Sou Analista de Sistemas e um apaixonado por tecnologia. Estudo [Python Anaconda](https://www.continuum.io/anaconda-overview) para análise de dados, Banco de Dados, Linux (Shell Script) e sempre estou pesquisando por novidades na área de tecnologia, tando para melhorar o meu trabalhos, melhorar o resultados das empresas ou simplismente novidades para as pessoas.
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+Você pode encontrar mais informações sobre mim no Linkedin: [Gustavo Mantovani](https://www.linkedin.com/in/gustavo-mantovani-131abb13).

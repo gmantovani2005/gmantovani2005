@@ -1,14 +1,90 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Your awesome title</title>
-    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+    <title>Tecnologia e Desenvolvimento - Uma Vida Estudando</title>
+    <description>Blog para falar de tecnologia e desenvolvimento. Uma vida estudando e pesquisando sobre estes assuntos e acredito importante compartilhar com todos.
 </description>
-    <link>http://yourdomain.com/</link>
-    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 07 May 2017 12:31:42 -0300</pubDate>
-    <lastBuildDate>Sun, 07 May 2017 12:31:42 -0300</lastBuildDate>
+    <link>https://gmantovani2005.github.io/</link>
+    <atom:link href="https://gmantovani2005.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 08 May 2017 09:50:31 -0300</pubDate>
+    <lastBuildDate>Mon, 08 May 2017 09:50:31 -0300</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
+    
+      <item>
+        <title>Criando Blog no GitHub Pages com Linux Mint e Jekyll</title>
+        <description>&lt;p&gt;&lt;img src=&quot;https://gmantovani2005.github.io/assets/criando-blog-github-jekyll.png&quot; alt=&quot;Meu screenshot&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Vou demonstrar hoje como criei meu blog utilizando o &lt;a href=&quot;https://pages.github.com/&quot;&gt;GitHub Pages&lt;/a&gt;, que é um serviço do &lt;a href=&quot;https://github.com/&quot;&gt;GitHub&lt;/a&gt; para prover páginas de internet. Estas páginas podem ser utilizadas para divulgar exemplos, demos, documentações e qualquer outro tipo de informação sobre o seu projeto. Acesse a página do GitHub Pages e siga os passos da página inicial para criar sua primeira página. Muito simples.&lt;/p&gt;
+
+&lt;p&gt;Eu fiz um pouco diferente do que explica a página. Segui os seguintes passos:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Instalei o &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Criei um blog com o Jekyll&lt;/li&gt;
+  &lt;li&gt;Criei um repositório vazio no GitHub (usuario.github.io)&lt;/li&gt;
+  &lt;li&gt;Subi meu blog para o repositório do Github&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;no-linux-mint-digitei-os-seguintes-comandos&quot;&gt;No Linux Mint, digitei os seguintes comandos:&lt;/h2&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;sudo apt install jekyll
+&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;jekyll new blog
+&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;blog
+&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;git add .
+&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;git commit -am &lt;span class=&quot;s1&quot;&gt;&#39;Primeiro commit do blog&#39;&lt;/span&gt;
+&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;git push&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Pronto! Tudo rodando. Agora é só fazer as alterações na página quando necessário e fazer o commit. Isto pode ser feito de várias jeitos. Você pode dentro do GitHub criar/alterar as páginas conforme sua necessidade. Ou pode fazer localmente e subir com commit/push para o seu repositório.&lt;/p&gt;
+
+&lt;p&gt;Eu estou fazendo local por enquanto, pois posso testar a página antes de subir, ver como está ficando.&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 08 May 2017 06:00:00 -0300</pubDate>
+        <link>https://gmantovani2005.github.io/jekyll/linux/mint/github/git/ruby/2017/05/08/criando-blog-github-pages.html</link>
+        <guid isPermaLink="true">https://gmantovani2005.github.io/jekyll/linux/mint/github/git/ruby/2017/05/08/criando-blog-github-pages.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>linux</category>
+        
+        <category>mint</category>
+        
+        <category>github</category>
+        
+        <category>git</category>
+        
+        <category>ruby</category>
+        
+      </item>
+    
+      <item>
+        <title>Primeiro Post GitHub Jekyll</title>
+        <description>&lt;p&gt;Este é o meu primeiro post utilizando o &lt;a href=&quot;https://github.com/&quot;&gt;GitHub&lt;/a&gt; e a ferramenta &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt;. Estou fazendo um teste de como escrever e como irá aparecer no blog.&lt;/p&gt;
+
+&lt;p&gt;Será que vai ser simples?&lt;/p&gt;
+
+&lt;p&gt;Olha os comandos para subir para o GitHub:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;git add .
+&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;git commit -am &lt;span class=&quot;s1&quot;&gt;&#39;Comentário que irá subir&#39;&lt;/span&gt;
+&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;git push&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Estou usando o &lt;a href=&quot;https://atom.io/&quot;&gt;Atom&lt;/a&gt; como editor de texto, ou seja, eu desenvolvo tudo na minha máquina e subo para um repositório que é acessível pelo Page do GitHub. Veja imagem deste post que está sendo produzido:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://gmantovani2005.github.io/assets/Screenshot_Primeiro_Post.png&quot; alt=&quot;Meu screenshot&quot; /&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Sun, 07 May 2017 13:10:00 -0300</pubDate>
+        <link>https://gmantovani2005.github.io/jekyll/primeiro/2017/05/07/primeiro-post.html</link>
+        <guid isPermaLink="true">https://gmantovani2005.github.io/jekyll/primeiro/2017/05/07/primeiro-post.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>primeiro</category>
+        
+      </item>
     
       <item>
         <title>Welcome to Jekyll!</title>
@@ -28,8 +104,8 @@
 
 </description>
         <pubDate>Sun, 07 May 2017 12:31:27 -0300</pubDate>
-        <link>http://yourdomain.com/jekyll/update/2017/05/07/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/jekyll/update/2017/05/07/welcome-to-jekyll.html</guid>
+        <link>https://gmantovani2005.github.io/jekyll/update/2017/05/07/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">https://gmantovani2005.github.io/jekyll/update/2017/05/07/welcome-to-jekyll.html</guid>
         
         
         <category>jekyll</category>
