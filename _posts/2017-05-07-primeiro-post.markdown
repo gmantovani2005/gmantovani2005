@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Primeiro Post GitHub Jekyll"
-date:   2017-05-07 13:10:00 -0000
+date:   2017-05-07 13:10:00 -0300
 categories: jekyll primeiro
 ---
 
