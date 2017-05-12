@@ -6,12 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Tecnologia e Desenvolvimento - Uma Vida Estudando</title>
-  <meta name="description" content="Blog para falar de tecnologia e desenvolvimento. Uma vida estudando e pesquisando sobre estes assuntos e acredito importante compartilhar com todos.
-">
+  <title>MkDocs - Documentação com Markdown</title>
+  <meta name="description" content="">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="https://gmantovani2005.github.io/">
+  <link rel="canonical" href="https://gmantovani2005.github.io/mkdocs/markdown/documenta%C3%A7%C3%A3o/2017/05/11/mkdocs.html">
   <link rel="alternate" type="application/rss+xml" title="Tecnologia e Desenvolvimento - Uma Vida Estudando" href="https://gmantovani2005.github.io/feed.xml">
 </head>
 
@@ -55,49 +54,64 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <div class="home">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <h1 class="page-heading">Posts</h1>
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">MkDocs - Documentação com Markdown</h1>
+    <p class="post-meta"><time datetime="2017-05-11T23:00:00-03:00" itemprop="datePublished">May 11, 2017</time></p>
+  </header>
 
-  <ul class="post-list">
-    
-      <li>
-        <span class="post-meta">May 11, 2017</span>
-        
-        <h2>
-          <a class="post-link" href="/mkdocs/markdown/documenta%C3%A7%C3%A3o/2017/05/11/mkdocs.html">MkDocs - Documentação com Markdown</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">May 8, 2017</span>
-        
-        <h2>
-          <a class="post-link" href="/jekyll/linux/mint/github/git/ruby/2017/05/08/criando-blog-github-pages.html">Criando Blog no GitHub Pages com Linux Mint e Jekyll</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">May 7, 2017</span>
-        
-        <h2>
-          <a class="post-link" href="/jekyll/primeiro/2017/05/07/primeiro-post.html">Primeiro Post GitHub Jekyll</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">May 7, 2017</span>
-        
-        <h2>
-          <a class="post-link" href="/jekyll/update/2017/05/07/welcome-to-jekyll.html">Welcome to Jekyll!</a>
-        </h2>
-      </li>
-    
-  </ul>
+  <div class="post-content" itemprop="articleBody">
+    <p><img src="https://gmantovani2005.github.io/assets/Screenshot_MkDocs.png" alt="Meu screenshot" /></p>
 
-  <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p>
+<p>Vamos começar definindo <a href="http://www.mkdocs.org/">MkDocs</a> conforme o site oficial:</p>
 
-</div>
+<p><em>O MkDocs é um gerador de site estático rápido, simples e francamente magnífico que é voltado para a documentação do projeto de construção. Os arquivos de origem da documentação são escritos em Markdown e configurados com um único arquivo de configuração YAML.</em></p>
+
+<p>Para instalar no Linux Mint e criar um novo projeto segui os seguintes passos:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="gp">$ </span>sudo apt install mkdocs
+<span class="gp">$ </span>mkdocs new my-site
+<span class="gp">$ </span><span class="nb">cd </span>my-site
+<span class="gp">$ </span>mkdocs serve</code></pre></figure>
+
+<p>De uma olhada na página do projeto, pois quando não temos um “Package Manage” como o <em>apt-get</em> no Linux Mint, podemos utilizar o <em>pip do python</em>.</p>
+
+<p>É muito simples criar um página. Dentro da pasta “docs” crie um arquivo <em>about.md</em> e digite um conteúdo utilizando linguagem <a href="https://guides.github.com/features/mastering-markdown/">Markdown</a>. Depois, edite o arquivo <em>mkdocs.yml</em> e adicione as “pages”, menus. Segue exemplo:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">site_name: My Site
+pages:
+   - Início: index.md
+   - Manuais:
+         - Módulos: manual/modulos.md
+         - Módulo TR: manual/modulo_tr.md
+         - Módulo FN: manual/modulo_fn.md
+   - Sobre: about.md</code></pre></figure>
+
+<p>Segue um exemplo de “page”:</p>
+
+<figure class="highlight"><pre><code class="language-markdown" data-lang="markdown"><span class="gh"># Welcome to My Site</span>
+
+For full documentation visit <span class="p">[</span><span class="nv">mkdocs.org</span><span class="p">](</span><span class="sx">http://mkdocs.org</span><span class="p">)</span>.
+
+<span class="gu">## Commands</span>
+<span class="p">
+*</span> <span class="sb">`mkdocs new [dir-name]`</span> - Create a new project.
+<span class="p">*</span> <span class="sb">`mkdocs serve`</span> - Start the live-reloading docs server.
+<span class="p">*</span> <span class="sb">`mkdocs build`</span> - Build the documentation site.
+<span class="p">*</span> <span class="sb">`mkdocs help`</span> - Print this help message.
+
+<span class="gu">## Project layout</span><span class="sb">
+
+    mkdocs.yml    # The configuration file.
+    docs/
+        index.md  # The documentation homepage.
+</span>        ...       # Other markdown pages, images and other files.</code></pre></figure>
+
+
+  </div>
+
+</article>
 
       </div>
     </div>

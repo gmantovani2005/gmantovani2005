@@ -1,0 +1,61 @@
+---
+layout: post
+title:  "MkDocs - Documentação com Markdown"
+date:   2017-05-11 23:00:00 -0300
+categories: mkdocs markdown documentação
+---
+
+![Meu screenshot]({{ site.url }}/assets/Screenshot_MkDocs.png)
+
+Vamos começar definindo [MkDocs][MkDocs] conforme o site oficial:
+
+_O MkDocs é um gerador de site estático rápido, simples e francamente magnífico que é voltado para a documentação do projeto de construção. Os arquivos de origem da documentação são escritos em Markdown e configurados com um único arquivo de configuração YAML._
+
+Para instalar no Linux Mint e criar um novo projeto segui os seguintes passos:
+
+{% highlight Bash shell scripts %}
+$ sudo apt install mkdocs
+$ mkdocs new my-site
+$ cd my-site
+$ mkdocs serve
+{% endhighlight %}
+
+De uma olhada na página do projeto, pois quando não temos um "Package Manage" como o *apt-get* no Linux Mint, podemos utilizar o *pip do python*.
+
+É muito simples criar um página. Dentro da pasta "docs" crie um arquivo *about.md* e digite um conteúdo utilizando linguagem [Markdown][Markdown]. Depois, edite o arquivo *mkdocs.yml* e adicione as "pages", menus. Segue exemplo:
+
+{% highlight Bash shell scripts %}
+site_name: My Site
+pages:
+   - Início: index.md
+   - Manuais:
+         - Módulos: manual/modulos.md
+         - Módulo TR: manual/modulo_tr.md
+         - Módulo FN: manual/modulo_fn.md
+   - Sobre: about.md
+{% endhighlight %}
+
+Segue um exemplo de "page":
+
+{% highlight Markdown %}
+# Welcome to My Site
+
+For full documentation visit [mkdocs.org](http://mkdocs.org).
+
+## Commands
+
+* `mkdocs new [dir-name]` - Create a new project.
+* `mkdocs serve` - Start the live-reloading docs server.
+* `mkdocs build` - Build the documentation site.
+* `mkdocs help` - Print this help message.
+
+## Project layout
+
+    mkdocs.yml    # The configuration file.
+    docs/
+        index.md  # The documentation homepage.
+        ...       # Other markdown pages, images and other files.
+{% endhighlight %}
+
+[MkDocs]: http://www.mkdocs.org/
+[Markdown]: https://guides.github.com/features/mastering-markdown/

@@ -6,9 +6,71 @@
 </description>
     <link>https://gmantovani2005.github.io/</link>
     <atom:link href="https://gmantovani2005.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 08 May 2017 09:50:31 -0300</pubDate>
-    <lastBuildDate>Mon, 08 May 2017 09:50:31 -0300</lastBuildDate>
+    <pubDate>Fri, 12 May 2017 00:20:27 -0300</pubDate>
+    <lastBuildDate>Fri, 12 May 2017 00:20:27 -0300</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
+    
+      <item>
+        <title>MkDocs - Documentação com Markdown</title>
+        <description>&lt;p&gt;&lt;img src=&quot;https://gmantovani2005.github.io/assets/Screenshot_MkDocs.png&quot; alt=&quot;Meu screenshot&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Vamos começar definindo &lt;a href=&quot;http://www.mkdocs.org/&quot;&gt;MkDocs&lt;/a&gt; conforme o site oficial:&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;O MkDocs é um gerador de site estático rápido, simples e francamente magnífico que é voltado para a documentação do projeto de construção. Os arquivos de origem da documentação são escritos em Markdown e configurados com um único arquivo de configuração YAML.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Para instalar no Linux Mint e criar um novo projeto segui os seguintes passos:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;sudo apt install mkdocs
+&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;mkdocs new my-site
+&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;my-site
+&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;mkdocs serve&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;De uma olhada na página do projeto, pois quando não temos um “Package Manage” como o &lt;em&gt;apt-get&lt;/em&gt; no Linux Mint, podemos utilizar o &lt;em&gt;pip do python&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;É muito simples criar um página. Dentro da pasta “docs” crie um arquivo &lt;em&gt;about.md&lt;/em&gt; e digite um conteúdo utilizando linguagem &lt;a href=&quot;https://guides.github.com/features/mastering-markdown/&quot;&gt;Markdown&lt;/a&gt;. Depois, edite o arquivo &lt;em&gt;mkdocs.yml&lt;/em&gt; e adicione as “pages”, menus. Segue exemplo:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;site_name: My Site
+pages:
+   - Início: index.md
+   - Manuais:
+         - Módulos: manual/modulos.md
+         - Módulo TR: manual/modulo_tr.md
+         - Módulo FN: manual/modulo_fn.md
+   - Sobre: about.md&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Segue um exemplo de “page”:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-markdown&quot; data-lang=&quot;markdown&quot;&gt;&lt;span class=&quot;gh&quot;&gt;# Welcome to My Site&lt;/span&gt;
+
+For full documentation visit &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;mkdocs.org&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;](&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;http://mkdocs.org&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;.
+
+&lt;span class=&quot;gu&quot;&gt;## Commands&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;
+*&lt;/span&gt; &lt;span class=&quot;sb&quot;&gt;`mkdocs new [dir-name]`&lt;/span&gt; - Create a new project.
+&lt;span class=&quot;p&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;sb&quot;&gt;`mkdocs serve`&lt;/span&gt; - Start the live-reloading docs server.
+&lt;span class=&quot;p&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;sb&quot;&gt;`mkdocs build`&lt;/span&gt; - Build the documentation site.
+&lt;span class=&quot;p&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;sb&quot;&gt;`mkdocs help`&lt;/span&gt; - Print this help message.
+
+&lt;span class=&quot;gu&quot;&gt;## Project layout&lt;/span&gt;&lt;span class=&quot;sb&quot;&gt;
+
+    mkdocs.yml    # The configuration file.
+    docs/
+        index.md  # The documentation homepage.
+&lt;/span&gt;        ...       # Other markdown pages, images and other files.&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+</description>
+        <pubDate>Thu, 11 May 2017 23:00:00 -0300</pubDate>
+        <link>https://gmantovani2005.github.io/mkdocs/markdown/documenta%C3%A7%C3%A3o/2017/05/11/mkdocs.html</link>
+        <guid isPermaLink="true">https://gmantovani2005.github.io/mkdocs/markdown/documenta%C3%A7%C3%A3o/2017/05/11/mkdocs.html</guid>
+        
+        
+        <category>mkdocs</category>
+        
+        <category>markdown</category>
+        
+        <category>documentação</category>
+        
+      </item>
     
       <item>
         <title>Criando Blog no GitHub Pages com Linux Mint e Jekyll</title>
