@@ -6,12 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Tecnologia e Desenvolvimento - Uma Vida Estudando</title>
-  <meta name="description" content="Blog para falar de tecnologia e desenvolvimento. Uma vida estudando e pesquisando sobre estes assuntos e acredito importante compartilhar com todos.
-">
+  <title>Criando um Pendrive de Inicialização do XUbuntu</title>
+  <meta name="description" content="Estes dias fui fazer um teste com o XUbuntu e para isto precisava de um pendrive para a instalação.">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="https://gmantovani2005.github.io/">
+  <link rel="canonical" href="https://gmantovani2005.github.io/linux/pendrive/boot/ubuntu/xubuntu/2017/05/13/pendrive-xubuntu.html">
   <link rel="alternate" type="application/rss+xml" title="Tecnologia e Desenvolvimento - Uma Vida Estudando" href="https://gmantovani2005.github.io/feed.xml">
 </head>
 
@@ -55,57 +54,30 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <div class="home">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <h1 class="page-heading">Posts</h1>
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Criando um Pendrive de Inicialização do XUbuntu</h1>
+    <p class="post-meta"><time datetime="2017-05-13T10:00:00-03:00" itemprop="datePublished">May 13, 2017</time></p>
+  </header>
 
-  <ul class="post-list">
-    
-      <li>
-        <span class="post-meta">May 13, 2017</span>
-        
-        <h2>
-          <a class="post-link" href="/linux/pendrive/boot/ubuntu/xubuntu/2017/05/13/pendrive-xubuntu.html">Criando um Pendrive de Inicialização do XUbuntu</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">May 11, 2017</span>
-        
-        <h2>
-          <a class="post-link" href="/mkdocs/markdown/documenta%C3%A7%C3%A3o/2017/05/11/mkdocs.html">MkDocs - Documentação com Markdown</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">May 8, 2017</span>
-        
-        <h2>
-          <a class="post-link" href="/jekyll/linux/mint/github/git/ruby/2017/05/08/criando-blog-github-pages.html">Criando Blog no GitHub Pages com Linux Mint e Jekyll</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">May 7, 2017</span>
-        
-        <h2>
-          <a class="post-link" href="/jekyll/primeiro/2017/05/07/primeiro-post.html">Primeiro Post GitHub Jekyll</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">May 7, 2017</span>
-        
-        <h2>
-          <a class="post-link" href="/jekyll/update/2017/05/07/welcome-to-jekyll.html">Welcome to Jekyll!</a>
-        </h2>
-      </li>
-    
-  </ul>
+  <div class="post-content" itemprop="articleBody">
+    <p>Estes dias fui fazer um teste com o <a href="https://xubuntu.org/">XUbuntu</a> e para isto precisava de um pendrive para a instalação.</p>
 
-  <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p>
+<p>Toda vez que precisava de um pendrive ou DVD de qualquer sistema operacional, eu sempre utilizava uma ferramenta. Desta vez fiz diferente e na minha opinião de uma forma bem mais simples.</p>
 
-</div>
+<p>Eu apenas baixei a ISO do XUbuntu e fiz o seguinte comando no terminal do Linux (como root):</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="c"># cat arquivo.iso &gt; /dev/sdb</span></code></pre></figure>
+
+<p><strong>Cuidado:</strong> este comando irá apagar tudo que estiver no arquivo e irá extrair os arquivos da imagem (ISO) para o pendrive.</p>
+
+<p><strong>Só para ficar registrado:</strong> Adorei a interface gráfica <a href="https://www.xfce.org/">Xfce</a>. Numa havia trabalhado nela por muito tempo. É simples. Tem tudo que preciso.</p>
+
+
+  </div>
+
+</article>
 
       </div>
     </div>

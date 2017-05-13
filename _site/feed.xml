@@ -6,9 +6,41 @@
 </description>
     <link>https://gmantovani2005.github.io/</link>
     <atom:link href="https://gmantovani2005.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 12 May 2017 00:20:27 -0300</pubDate>
-    <lastBuildDate>Fri, 12 May 2017 00:20:27 -0300</lastBuildDate>
+    <pubDate>Sat, 13 May 2017 10:25:42 -0300</pubDate>
+    <lastBuildDate>Sat, 13 May 2017 10:25:42 -0300</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
+    
+      <item>
+        <title>Criando um Pendrive de Inicialização do XUbuntu</title>
+        <description>&lt;p&gt;Estes dias fui fazer um teste com o &lt;a href=&quot;https://xubuntu.org/&quot;&gt;XUbuntu&lt;/a&gt; e para isto precisava de um pendrive para a instalação.&lt;/p&gt;
+
+&lt;p&gt;Toda vez que precisava de um pendrive ou DVD de qualquer sistema operacional, eu sempre utilizava uma ferramenta. Desta vez fiz diferente e na minha opinião de uma forma bem mais simples.&lt;/p&gt;
+
+&lt;p&gt;Eu apenas baixei a ISO do XUbuntu e fiz o seguinte comando no terminal do Linux (como root):&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;c&quot;&gt;# cat arquivo.iso &amp;gt; /dev/sdb&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;strong&gt;Cuidado:&lt;/strong&gt; este comando irá apagar tudo que estiver no arquivo e irá extrair os arquivos da imagem (ISO) para o pendrive.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Só para ficar registrado:&lt;/strong&gt; Adorei a interface gráfica &lt;a href=&quot;https://www.xfce.org/&quot;&gt;Xfce&lt;/a&gt;. Numa havia trabalhado nela por muito tempo. É simples. Tem tudo que preciso.&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 13 May 2017 10:00:00 -0300</pubDate>
+        <link>https://gmantovani2005.github.io/linux/pendrive/boot/ubuntu/xubuntu/2017/05/13/pendrive-xubuntu.html</link>
+        <guid isPermaLink="true">https://gmantovani2005.github.io/linux/pendrive/boot/ubuntu/xubuntu/2017/05/13/pendrive-xubuntu.html</guid>
+        
+        
+        <category>linux</category>
+        
+        <category>pendrive</category>
+        
+        <category>boot</category>
+        
+        <category>ubuntu</category>
+        
+        <category>xubuntu</category>
+        
+      </item>
     
       <item>
         <title>MkDocs - Documentação com Markdown</title>
