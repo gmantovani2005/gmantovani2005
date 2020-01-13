@@ -4,6 +4,8 @@ title: Sobre
 permalink: /about/
 ---
 
-Sou Analista de Sistemas e um apaixonado por tecnologia. Estudo [Python Anaconda](https://www.continuum.io/anaconda-overview) para análise de dados, Banco de Dados, Linux (Shell Script) e sempre estou pesquisando por novidades na área de tecnologia, tando para melhorar o meu trabalhos, melhorar o resultados das empresas ou simplismente novidades para as pessoas.
+Especialista em TI e Gerenciamento de Projetos com 14 anos de experiência na área de software trabalhando como desenvolvedor, consultor, instrutor corporativo, professor de graduação, analista de negócios, coordenador e gerente de projetos.
 
-Você pode encontrar mais informações sobre mim no Linkedin: [Gustavo Mantovani](https://www.linkedin.com/in/gustavo-mantovani-131abb13).
+Experiência em liderança de equipes multidisciplinares com mais de 10 membros e projetos com mais de 55k horas em empresas multinacionais.
+
+Apaixonado por inovação, tecnologia, em aprender e compartilhar conhecimento.
