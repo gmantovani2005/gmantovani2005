@@ -7,7 +7,7 @@ categories: python linux ubuntu rocketchat azure
 
 Hoje vamos falar um pouco sobre o que estamos fazendo. Tentando ressuscitar um noteboot antigo com Lubuntu 20.04 LTS.
 
-Para iniciar, posso dizer que fiquei confuso quando pesquisei na internet por "lubuntu". O primeiro site que fui direcionado foi em um domínio .net (https://lubuntu.net/). Neste domínio fui apresentado apenas a versão 18.04 LTS e a versão 19.10. Porém continuei pesquisando e encontrei o domínio .me (https://lubuntu.me/). Neste último domínio estava falando da versão 20.04 LTS. Mas e aí? Qual eu devo baixar?
+Para iniciar, posso dizer que fiquei confuso quando pesquisei na internet por "lubuntu". O primeiro site que fui direcionado foi em um [domínio .net][dominio-net]. Neste domínio fui apresentado apenas a versão 18.04 LTS e a versão 19.10. Porém continuei pesquisando e encontrei o [domínio .me][dominio-me]. Neste último domínio estava falando da versão 20.04 LTS. Mas e aí? Qual eu devo baixar?
 
 A [Wikipedia][Wiki-LUbuntu] diz que o link do Lubuntu é https://lubuntu.me/ e foi onde eu baixei a versão 20.04 LTS para testar. Lá também define o que é o Lubuntu para quem não sabe:
 
@@ -26,3 +26,5 @@ Gostaria de fazer outros testes principalmente com Docker, porém ainda não tem
 Para utilização básica a distro se comporta muito bem. Vou deixar para minha filha de 3 anos participar das aulas remoto em período da pandemia do Covid_19. Começa agora, dia 27/04/2020. Já vou treinamento a utilizar Linux. Vou utilizando para fazer algumas tarefas básicas como utilizar o blog do Linux, testar algumas aplições JS, entre outros.
 
 [Wiki-LUbuntu]: https://pt.wikipedia.org/wiki/Lubuntu
+[dominio-net]: https://lubuntu.net/
+[dominio-me]: https://lubuntu.me/
