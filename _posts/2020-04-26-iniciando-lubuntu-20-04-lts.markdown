@@ -9,7 +9,7 @@ Hoje vamos falar um pouco sobre o que estamos fazendo. Tentando ressuscitar um n
 
 Para iniciar, posso dizer que fiquei confuso quando pesquisei na internet por "lubuntu". O primeiro site que fui direcionado foi em um [domínio .net][dominio-net]. Neste domínio fui apresentado apenas a versão 18.04 LTS e a versão 19.10. Porém continuei pesquisando e encontrei o [domínio .me][dominio-me]. Neste último domínio estava falando da versão 20.04 LTS. Mas e aí? Qual eu devo baixar?
 
-A [Wikipedia][Wiki-LUbuntu] diz que o link do Lubuntu é https://lubuntu.me/ e foi onde eu baixei a versão 20.04 LTS para testar. Lá também define o que é o Lubuntu para quem não sabe:
+A [Wikipedia][Wiki-LUbuntu] diz que o link do Lubuntu é o [domínio .me][dominio-me] e foi onde eu baixei a versão 20.04 LTS para testar. Lá também define o que é o Lubuntu para quem não sabe:
 
 ```
 Lubuntu é um projeto derivado da distribuição Linux Ubuntu que utiliza o ambiente desktop LXQt. Seu diferencial está em seu desenvolvimento, que foca em computadores e notebooks antigos, com menos de 512 de RAM.
